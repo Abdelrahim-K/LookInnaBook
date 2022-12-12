@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Book Collection</title>
+  </head>
+  <body>
+    <h1>Book Collection</h1>
+
+    <button type="button" onclick="addBook()">Add Book</button>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Author</th>
+          <th>Year</th>
+          <th>Publisher</th>
+          <th>ISBN</th>
+          <th>Price</th>
+          <th>Quantity</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>The Great Gatsby</td>
+          <td>F. Scott Fitzgerald</td>
+          <td>1925</td>
+          <td>Charles Scribner's Sons</td>
+          <td>978-0743273565</td>
+          <td>$15.00</td>
+          <td>10</td>
+          <td>
+            <button type="button" onclick="removeBook(978-0743273565)">Remove</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
